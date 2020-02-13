@@ -4,4 +4,48 @@
 
 .jumbotron h1{
     color: #28a745;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.jumbotron p{
+    margin-left: 10px;
+}
+
+.jumbotron .contBtnJumbo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jumbotron .contBtnJumbo button{
+    margin: 5px;
+}
+
+.container-pre-eventos{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container-pre-eventos .card{
+    margin: 5px;
+}
+
+.cont-btn-evento{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.cont-btn-center{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
 }

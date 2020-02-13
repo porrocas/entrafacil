@@ -7,4 +7,11 @@
 
 body, html{
     width: 100%;
+    background: whitesmoke;
+}
+
+.imagenesIguales{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }

@@ -47,7 +47,7 @@
                     <div class="form-group">
                         <p class="card-title">Suscribete a los mejores eventos de Colombia.</p>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="micorreo@gmail.com" required>
+                            placeholder="micorreo@express.com" required>
                         <button type="submit" class="btn btn-success btnNews">Registrate</button>
                     </div>
                 </form>
