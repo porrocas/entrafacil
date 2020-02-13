@@ -7,21 +7,35 @@
 
 .contSlider .carouselSlider{
     width: 65%;
-    margin: auto;
+    margin: 25px auto;
 }
 
 .contSlider .cardNewsletter{
     width: 30%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 5px;
+    justify-content: center;
 }
 
 .contSlider .cardNewsletter .card{
     width: 80%;
+    margin: 10px auto;
 }
 
 .contSlider .cardNewsletter .card .btnNews{
     margin-top: 10px;
+}
+
+#navRedes{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+#navRedes a{
+    font-size: 10px;
+    margin: auto 5px;
+    letter-spacing: 1px;
+    font-weight: 600;
 }

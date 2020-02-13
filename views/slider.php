@@ -40,7 +40,7 @@
         </div>
     </div>
     <div class="cardNewsletter">
-        <div class="card">
+        <div class="card shadow p-3 mb-5 bg-white rounded">
             <img src="./img/c1.jpg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
                 <form>
@@ -55,3 +55,9 @@
         </div>
     </div>
 </div>
+
+<?php
+/*
+    
+*/
+?>

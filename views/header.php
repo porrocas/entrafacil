@@ -1,3 +1,19 @@
+<!-- Image and text -->
+<nav id="navRedes" class="navbar navbar-light bg-success">
+  <a class="navbar-brand" href="#">
+    FaceBook
+  </a>
+  <a class="navbar-brand" href="#">
+    Instagram
+  </a>
+  <a class="navbar-brand" href="#">
+    Whatsapp
+  </a>
+  <a class="navbar-brand" href="#">
+    Twitter
+  </a>
+</nav>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand tituloLogo" href="#">Entra <span>|Fácil.com</span> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +40,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Mi cuenta</a>
+        <a class="nav-link" href="#">Hola, Identificate!</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
