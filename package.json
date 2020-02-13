@@ -1,0 +1,19 @@
+{
+  "name": "entrafacil",
+  "version": "1.0.0",
+  "description": "Entra Fácil crea y vende entradas para tus eventos, tus clientes pueden conocer toda la informacion, descripcion y ubicacion de tu evento, pueden pagar al instante en cualquier parte sin hacer filas o recorrer largas distancias",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porrocas/entrafacil.git"
+  },
+  "author": "Daniel Mateus Ovalle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/porrocas/entrafacil/issues"
+  },
+  "homepage": "https://github.com/porrocas/entrafacil#readme"
+}
