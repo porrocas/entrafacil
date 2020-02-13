@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/present.css">
     <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/pre-eventos.css">
     <!--JS-->
     <script async defer src="./js/interactive.js"></script>
 </head>
@@ -20,6 +21,7 @@
     <?php include('./views/header.php')?>
     <?php include('./views/present.php')?>
     <?php include('./views/slider.php')?>
+    <?php include('./views/pre-eventos.php')?>
 
     <!--JS-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
