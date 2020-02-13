@@ -1,0 +1,27 @@
+.contSlider{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contSlider .carouselSlider{
+    width: 65%;
+    margin: 5px;
+}
+
+.contSlider .cardNewsletter{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.contSlider .cardNewsletter .card{
+    width: 80%;
+}
+
+.contSlider .cardNewsletter .card .btnNews{
+    margin-top: 10px;
+}

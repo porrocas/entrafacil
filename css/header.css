@@ -1,0 +1,10 @@
+nav .tituloLogo{
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+nav .tituloLogo span{
+    font-size: 1.2em;
+    color: #28a745;
+}
