@@ -15,3 +15,7 @@
 .mostrarImgEvento .conImgEventPre{
     width: 30%;
 }
+
+#imgOfEvento{
+    cursor: pointer;
+}

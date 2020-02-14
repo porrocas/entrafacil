@@ -34,6 +34,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Galeria</a>
+          <a class="dropdown-item" href="#">Contacto</a>
           <a class="dropdown-item" href="#">About Us</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Soporte</a>

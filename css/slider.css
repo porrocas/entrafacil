@@ -39,3 +39,26 @@
     letter-spacing: 1px;
     font-weight: 600;
 }
+
+
+@media (max-width: 576px) {
+    .contSlider .carouselSlider{
+        width: 100% !important;
+        margin: 5px auto;
+    }
+    
+    .contSlider .cardNewsletter{
+        width: 100% !important;
+    }
+
+    .contSlider .cardNewsletter .card{
+        width: 90%;
+        margin: 5px auto;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

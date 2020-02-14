@@ -20,7 +20,7 @@
             <div class="card-body">
                 <small class="text-muted">01 de diciembre del 2020 - 18:00 hrs</small>
                 <h5 class="card-title">Alistate que estoy suelta como gabete!</h5>
-                <p class="card-text">EL mejor evento de reggeton y perreo, junto a los mejores artistas, compra tu entrada.</p>
+                <p class="card-text d-none d-sm-none d-md-block">EL mejor evento de reggeton y perreo, junto a los mejores artistas, compra tu entrada.</p>
                 <div class="cont-btn-evento">
                   <a href="#" class="btn btn-primary">Saber Más</a>
                 </div>
