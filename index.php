@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/pre-eventos.css">
     <link rel="stylesheet" href="css/pre-image-event.css">
+    <link rel="stylesheet" href="css/team.css">
     <!--JS-->
     <script async defer src="./js/interactive.js"></script>
 </head>
@@ -23,6 +24,8 @@
     <?php include('./views/present.php')?>
     <?php include('./views/slider.php')?>
     <?php include('./views/pre-eventos.php')?>
+    <?php include('./views/pre-about.php')?>
+    <?php include('./views/team.php')?>
     <?php include('./views/functions/visualizarImgEvent.php')?>
     
     <!--JS-->

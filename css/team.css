@@ -1,0 +1,24 @@
+.aling-vertical-team{
+    display: flex;
+    align-items: center;
+}
+
+.cont-my-team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cont-my-team .img-team-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: grey;
+    margin-bottom: 10px;
+}
+
+.cont-my-team .img-team-perfil img{
+    object-fit: cover;
+}
