@@ -14,8 +14,9 @@
       <div class="row aling-vertical-team">
           <div class=" cont-my-team col-md-4">
             <div class="img-team-perfil">
-                <img src="" alt="" class="img-fluid">
+                <img src="./img/p2.jpg" alt="" class="img-fluid">
             </div>
+            <small class="text-muted">CMO | Chief Marketing Officer</small>
               <h2>Valentina Caballero</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
                   mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
@@ -24,8 +25,9 @@
           </div>
           <div class=" cont-my-team col-md-4">
             <div class="img-team-perfil">
-                <img src="" alt="" class="img-fluid">
+                <img src="./img/p1.jpg" alt="" class="img-fluid">
             </div>
+            <small class="text-muted">CEO | Chief Executive Officer</small>
               <h2>Juan Sebastian Castro</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
                   mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
@@ -34,8 +36,9 @@
           </div>
           <div class=" cont-my-team col-md-4">
             <div class="img-team-perfil">
-                <img src="" alt="" class="img-fluid">
+                <img src="./img/p3.jpg" alt="" class="img-fluid">
             </div>
+            <small class="text-muted">CTO | Chief Technology Officer</small>
               <h2>Daniel Mateus Ovalle</h2>
               <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
                   porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
