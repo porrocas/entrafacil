@@ -8,3 +8,17 @@ nav .tituloLogo span{
     font-size: 1.2em;
     color: #28a745;
 }
+
+#navRedes{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+#navRedes a{
+    font-size: 10px;
+    margin: auto 5px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}

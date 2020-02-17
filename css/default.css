@@ -15,3 +15,8 @@ body, html{
     height: 250px;
     object-fit: cover;
 }
+
+a:hover{
+    text-decoration: none;
+    color: #28a745;
+}
