@@ -6,7 +6,7 @@
             casa o en la vuelta de la esquina.</p>
     </div>
     <div class="contBtnJumbo">
-        <button type="button" class="btn btn-outline-success">Eventos</button>
+        <button type="button" class="btn btn-outline-success">Todos Los Eventos</button>
         <button type="button" class="btn btn-success">Crear Evento</button>
     </div>
 </div>
