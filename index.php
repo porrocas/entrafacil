@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/present.css">
+    <link rel="stylesheet" href="css/main-j.css">
     <link rel="stylesheet" href="css/cover.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/pre-eventos.css">
@@ -30,6 +31,7 @@
 
     <?php include('./views/header.php')?>
     <?php include('./views/present.php')?>
+    <?php include('./views/main.php') ?>
     <?php include('./views/cover.php') ?>
     <?php include('./views/slider.php')?>
     <?php include('./views/pre-eventos.php')?>
