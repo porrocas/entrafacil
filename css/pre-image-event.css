@@ -19,3 +19,9 @@
 #imgOfEvento{
     cursor: pointer;
 }
+
+@media (max-width: 576px) {
+    .mostrarImgEvento .conImgEventPre{
+        width: 80%;
+    }
+}

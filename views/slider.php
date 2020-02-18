@@ -45,10 +45,10 @@
             <div class="card-body">
                 <form>
                     <div class="form-group">
-                        <p class="card-title">Suscribete a los mejores eventos de Colombia.</p>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="micorreo@express.com" required>
-                        <button type="submit" class="btn btn-success btnNews">Registrate</button>
+                        <p class="card-title">Inscribe tu numero y tendrás, los mejores obsequios en los mejores eventos.</p>
+                        <input type="tel" class="form-control" id="exampleFormControlInput1"
+                            placeholder="3XX XXX XXXX" required>
+                        <button type="submit" class="btn btn-success btnNews">Inscribirme</button>
                     </div>
                 </form>
             </div>

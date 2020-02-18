@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/present.css">
+    <link rel="stylesheet" href="css/cover.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/pre-eventos.css">
     <link rel="stylesheet" href="css/pre-image-event.css">
     <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/pre-tarifas.css">
     <link rel="stylesheet" href="css/footer.css">
 
     <!--JS-->
@@ -28,10 +30,12 @@
 
     <?php include('./views/header.php')?>
     <?php include('./views/present.php')?>
+    <?php include('./views/cover.php') ?>
     <?php include('./views/slider.php')?>
     <?php include('./views/pre-eventos.php')?>
     <?php include('./views/pre-about.php')?>
     <?php include('./views/team.php')?>
+    <?php include('./views/pre-tarifas.php') ?>
     <?php include('./views/functions/visualizarImgEvent.php')?>
     <?php include('./views/footer.php');?>
     <!--JS-->
