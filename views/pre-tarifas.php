@@ -1,7 +1,7 @@
 <div class="cont-tarifas">
 <div class="jumbotron">
     <h1>Que hacemos?</h1>
-    <p class="lead text-dark">Poner a disposición de organizadores y asistentes de eventos herramientas para facilitar el trabajo de ambas partes, pero todo no es color de rosa, es por eso que necesitamos una tarifa, para poder estar en linea y mejorar para ti!</p>
+    <p class="lead text-dark">Poner a disposición de organizadores y asistentes de eventos herramientas para facilitar el trabajo de ambas partes, pero todo no es color de rosa, es por eso que necesitamos una pequeña tarifa, para poder estar en linea y mejorar para ti!</p>
     <p><a class="btn btn-lg btn-success" href="#" role="button">Saber mas.</a></p>
 </div>
 
