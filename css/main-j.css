@@ -56,10 +56,12 @@
     .mainJumbotron > h1{
         z-index: 5;
         width: 95%;
+        font-size: 2em !important;
     }
     
     .mainJumbotron > p{
         width: 90%;
         z-index: 5;
+        font-size: 1.3em;
     }
 }

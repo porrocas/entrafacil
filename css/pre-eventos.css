@@ -33,7 +33,7 @@
 }
 
 .container-pre-eventos .card{
-    width: 100%;
+    width: 18rem;
     margin: 5px auto;
 }
 
@@ -50,4 +50,29 @@
     margin: 10px auto;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 576px) {
+    .container-pre-eventos{
+        width: 100%;
+    }
+    
+    .container-pre-eventos .card{
+        width: 100%;
+        margin: 5px auto;
+    }
+    
+    .cont-btn-evento{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .cont-btn-center{
+        width: 90%;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+    }
 }
