@@ -24,3 +24,9 @@ function abrirPreEvent(e){
 function cerrarPreEvent(){
     preImagen.style.display = 'none';
 }
+
+const video = document.getElementById('videoMain');
+
+if(screen.width <= 576){
+    video.src = '../src/video/bg2.mp4';
+}

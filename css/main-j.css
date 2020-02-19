@@ -26,7 +26,8 @@
 
 .mainJumbotron .centerTextMuted{
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
+    letter-spacing: 2px;
 }
 
 .mainJumbotron > .opacityVideo{
@@ -43,4 +44,22 @@
     top: 0;
     left: 0;
     z-index: 0;
+}
+
+@media (max-width: 576px) {
+    .mainJumbotron{
+        width: 100%;
+        height: 700px;
+        margin: 0px auto;
+    }
+    
+    .mainJumbotron > h1{
+        z-index: 5;
+        width: 95%;
+    }
+    
+    .mainJumbotron > p{
+        width: 90%;
+        z-index: 5;
+    }
 }
