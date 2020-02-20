@@ -21,7 +21,7 @@
           </div>
           <div class=" cont-my-team col-md-4">
             <div class="img-team-perfil">
-                <img src="./img/p1.jpg" alt="" class="img-fluid">
+                <img src="./img/p0.jpg" alt="" class="img-fluid">
             </div>
             <small class="text-muted">CEO | Chief Executive Officer</small>
               <h2>Juan Sebastian Castro</h2>
