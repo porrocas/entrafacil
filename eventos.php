@@ -16,13 +16,19 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/pre-eventos.css">
+    <link rel="stylesheet" href="css/pre-image-event.css">
+    <link rel="stylesheet" href="css/footer.css">
 
+    <!--JS-->
+    <script async defer src="./js/interactiveEvents.js"></script>
 </head>
 
 <body>
     <?php include('./views/header.php')?>
     <?php include('./views/present.php')?>
     <?php include('./views/pages/eventos.php')?>
+    <?php include('./views/functions/visualizarImgEvent.php')?>
+    <?php include('./views/footer.php');?>
 
     <!--JS-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
