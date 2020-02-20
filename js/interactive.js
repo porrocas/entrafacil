@@ -28,5 +28,5 @@ function cerrarPreEvent(){
 const video = document.getElementById('videoMain');
 
 if(screen.width <= 576){
-    video.src = '../src/video/bg2.mp4';
+    video.src = '../services/video/bg2.mp4';
 }

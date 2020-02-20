@@ -5,7 +5,7 @@
     <p class="centerTextMuted text-white">Los buenos eventos, empiezan desde su organización y con EntraFácil.com como aliado.</p>
     <a class="btn btn-outline-warning" href="#" role="button">Crear Eventos</a>
     <video id="videoMain" autoplay muted loop playsinline>
-        <source src="./src/video/bg1.mp4" type="video/mp4">
+        <source src="./services/video/bg1.mp4" type="video/mp4">
     </video>
     <div class="opacityVideo"></div>
 </div>
