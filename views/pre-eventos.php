@@ -16,7 +16,7 @@
   for ($i=0; $i < 8; $i++) { 
     echo '
         <div class="card">
-            <img id="imgOfEvento" src="../src/img/1.jfif" class="card-img-top imagenesIguales" alt="...">
+            <img id="imgOfEvento" src="../src/img/1.jpg" class="card-img-top imagenesIguales" alt="...">
             <div class="card-body">
                 <small class="text-muted">01 de diciembre del 2020 - 18:00 hrs</small>
                 <h5 class="card-title">Alistate que estoy suelta como gabete!</h5>
