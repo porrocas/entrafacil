@@ -35,6 +35,7 @@
             <small class="text-muted">CTO | Chief Technology Officer</small>
               <h2>Daniel Mateus Ovalle</h2>
               <p>Hola, Tengo 22 años, soy programador, desarrollador FullStack y estudiante de ingeniería mecatrónica, mi hobby es la biología y soy el director de tecnología en EntraFácil.com, cualquier duda o inquietud sobre la plataforma y su funcionamiento la puedo resolver, no dudes en contactarme.</p>
+              <br>
               <p><a class="btn btn-secondary" href="#" role="button">Conocer &raquo;</a></p>
           </div>
       </div>
