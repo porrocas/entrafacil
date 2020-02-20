@@ -10,7 +10,7 @@
     case 'index':
       echo 
           '
-          <nav aria-label="breadcrumb">
+          <nav id="present" aria-label="breadcrumb">
               <ol class="breadcrumb">
                   <li class="breadcrumb-item active" aria-current="page">Inicio</li>
               </ol>
@@ -20,7 +20,7 @@
     case 'eventos':
       echo 
           '
-          <nav aria-label="breadcrumb">
+          <nav id="present" aria-label="breadcrumb">
               <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
                   <li class="breadcrumb-item active" aria-current="page">eventos</li>
@@ -31,7 +31,7 @@
     case 'aboutUs':
         echo 
             '
-            <nav aria-label="breadcrumb">
+            <nav id="present" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
                     <li class="breadcrumb-item active" aria-current="page">AboutUS</li>
@@ -42,7 +42,7 @@
     default:
         echo 
             '
-            <nav aria-label="breadcrumb">
+            <nav id="present" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item active" aria-current="page">Inicio</li>
                 </ol>
