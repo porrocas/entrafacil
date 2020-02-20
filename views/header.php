@@ -22,28 +22,100 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="eventos.php">Eventos</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Menu
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="aboutUs.php#galeria">Galería</a>
-                    <a class="dropdown-item" href="aboutUs.php#contacto">Contacto</a>
-                    <a class="dropdown-item" href="aboutUs.php">About Us</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="soporte.php">Soporte</a>
-                </div>
-            </li>
+        <?php
+            function getNameActive(){
+                $serverName = $_SERVER["SERVER_NAME"];
+                $urlUbi = $_SERVER["REQUEST_URI"];
+                $rutaArray = explode('/', $urlUbi);
+                $nombreUbi = explode('.', $rutaArray[1]);
+                return $nombreUbi[0];
+              }
 
-        </ul>
+            switch (getNameActive()) {
+                case 'index':
+                    echo 
+                        '
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="eventos.php">Eventos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="aboutUs.php#galeria">Galería</a>
+                                    <a class="dropdown-item" href="aboutUs.php#contacto">Contacto</a>
+                                    <a class="dropdown-item" href="aboutUs.php">About Us</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="soporte.php">Soporte</a>
+                                </div>
+                            </li>
+                        </ul>
+                        ';
+                    break;
+                case 'eventos':
+                    echo 
+                        '
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="eventos.php">Eventos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="aboutUs.php#galeria">Galería</a>
+                                    <a class="dropdown-item" href="aboutUs.php#contacto">Contacto</a>
+                                    <a class="dropdown-item" href="aboutUs.php">About Us</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="soporte.php">Soporte</a>
+                                </div>
+                            </li>
+                        </ul>
+                        ';
+                    break;
+                case 'aboutUs':
+                        echo 
+                            '
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="eventos.php">Eventos</a>
+                                </li>
+                                <li class="nav-item dropdown active">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Menu
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="aboutUs.php#galeria">Galería</a>
+                                        <a class="dropdown-item" href="aboutUs.php#contacto">Contacto</a>
+                                        <a class="dropdown-item" href="aboutUs.php">About Us</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="soporte.php">Soporte</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            ';
+                        break;
+                default:
+                    # code...
+                    break;
+            }
+            
+        ?>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Buscar Eventos" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
