@@ -1,6 +1,5 @@
 <?php
   function getNamePage(){
-    $serverName = $_SERVER["SERVER_NAME"];
     $urlUbi = $_SERVER["REQUEST_URI"];
     $rutaArray = explode('/', $urlUbi);
     $nombreUbi = explode('.', $rutaArray[1]);
@@ -41,6 +40,14 @@
             ';
         break;
     default:
+        echo 
+            '
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+                </ol>
+            </nav>
+            ';
       break;
   }
 ?>

@@ -6,7 +6,8 @@
     <a class="navbar-brand" href="https://www.instagram.com/entrafacil/?hl=es-la">
         Instagram
     </a>
-    <a class="navbar-brand" href="https://api.whatsapp.com/send?phone=+573213915844&text=Hola,%20EntraF%C3%A1cil.com%20Necesito%20Tus%20Servicios">
+    <a class="navbar-brand"
+        href="https://api.whatsapp.com/send?phone=+573213915844&text=Hola,%20EntraF%C3%A1cil.com%20Necesito%20Tus%20Servicios">
         Whatsapp
     </a>
     <a class="navbar-brand" href="#">
@@ -111,7 +112,30 @@
                             ';
                         break;
                 default:
-                    # code...
+                        echo 
+                        '
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="eventos.php">Eventos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="aboutUs.php#galeria">Galería</a>
+                                    <a class="dropdown-item" href="aboutUs.php#contacto">Contacto</a>
+                                    <a class="dropdown-item" href="aboutUs.php">About Us</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="soporte.php">Soporte</a>
+                                </div>
+                            </li>
+                        </ul>
+                        ';
                     break;
             }
             
