@@ -25,7 +25,7 @@
         <p>Para vender las entradas de tu evento solo tienes que completar 3 sencillos pasos dando clic en el siguiente link Crear Evento.</p>
 
         <h4>Tarifas</h4>
-        <p>No todo es felicidad, para poder estar en linea y ayudarlos EntraFácil solo cobrara el 5% + $900 por boleta vendida de tus eventos. Todas las boletas vendidas al momento de finalizar el evento serán pagadas al organizador, a tu cuenta de ahorros o puedes contactarnos para saber como realizarte el pago.</p>
+        <p>No todo es felicidad, para poder estar en linea y ayudarlos EntraFácil solo cobrara el xxxxxx por boleta vendida de tus eventos. Todas las boletas vendidas al momento de finalizar el evento serán pagadas al organizador, a tu cuenta de ahorros o puedes contactarnos para saber como realizarte el pago.</p>
     </div>
 </div>
 </div>
