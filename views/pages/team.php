@@ -81,12 +81,9 @@
                     <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
                     <div class="card-body">
                         <h3 class="card-title">Product Name</h3>
-                        <h4>$24.99</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit
                             fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur
                             praesentium animi perspiciatis molestias iure, ducimus!</p>
-                        <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
-                        4.0 stars
                     </div>
                 </div>
                 <!-- /.card -->
@@ -131,12 +128,9 @@
                     <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
                     <div class="card-body">
                         <h3 class="card-title">Product Name</h3>
-                        <h4>$24.99</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit
                             fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur
                             praesentium animi perspiciatis molestias iure, ducimus!</p>
-                        <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
-                        4.0 stars
                     </div>
                 </div>
                 <!-- /.card -->
@@ -181,12 +175,9 @@
                     <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
                     <div class="card-body">
                         <h3 class="card-title">Product Name</h3>
-                        <h4>$24.99</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit
                             fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur
                             praesentium animi perspiciatis molestias iure, ducimus!</p>
-                        <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
-                        4.0 stars
                     </div>
                 </div>
                 <!-- /.card -->
@@ -230,7 +221,7 @@
               <div class="card mt-4 mb-5">
                   <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
                   <div class="card-body">
-                      <h3 class="card-title">EntraFácil.com y su equipo</h3>
+                      <h3 class="card-title">EntraFácil.com y su equipo!</h3>
                       <p class="card-text">Cuando los proyectos se realizan con amor y entre amigos, Tienen un 100% de posibilidad de crecer, Queremos que tu hagas parte de esta plataforma.</p>
                       <p class="card-text">Empezamos 3 amigos, cada uno de nosotros, es parte fundamental del equipo y avanzamos todos juntos, si quieres saber algo de nosotros haz clic en nuestros nombres.</p>
                       <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
