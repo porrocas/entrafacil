@@ -15,17 +15,13 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/aboutus.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/pre-eventos.css">
 
 </head>
 
 <body>
     <?php include('./views/header.php')?>
     <?php include('./views/present.php')?>
-    <?php include('./views/pages/aboutus.php')?>
-    <?php include('./views/team.php')?>
-    <?php include('./views/footer.php');?>
 
     <!--JS-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
