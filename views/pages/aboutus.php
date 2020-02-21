@@ -106,40 +106,38 @@
 
     <!-- Grid column -->
     <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-            alt="Card image cap">
+        <img class="img-fluid" src="./img/galeria/g1.jpeg" alt="Card image cap">
     </div>
     <!-- Grid column -->
 
     <!-- Grid column -->
     <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="Card image cap">
+        <img class="img-fluid" src="./img/galeria/g2.jpeg" alt="Card image cap">
     </div>
     <!-- Grid column -->
 
     <!-- Grid column -->
     <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap">
+        <img class="img-fluid" src="./img/galeria/g3.jpeg" alt="Card image cap">
     </div>
     <!-- Grid column -->
 
     <!-- Grid column -->
     <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-            alt="Card image cap">
+        <img class="img-fluid" src="./img/galeria/g4.jpeg" alt="Card image cap">
     </div>
     <!-- Grid column -->
 
     <!-- Grid column -->
     <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+        <img class="img-fluid" src="./img/galeria/g1.jpeg"
             alt="Card image cap">
     </div>
     <!-- Grid column -->
 
     <!-- Grid column -->
     <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap">
+        <img class="img-fluid" src="./img/galeria/g3.jpeg" alt="Card image cap">
     </div>
     <!-- Grid column -->
 
@@ -156,7 +154,8 @@
     <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold text-center my-4">Habla con nosotros.</h2>
     <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Si tienes dudas o inquietudes, algún disgusto, podemos dialogar, dejanos un mensaje y nosotros te solucionamos tus problemas.</p>
+    <p class="text-center w-responsive mx-auto mb-5">Si tienes dudas o inquietudes, algún disgusto, podemos dialogar,
+        dejanos un mensaje y nosotros te solucionamos tus problemas.</p>
 
     <div class="row">
 
@@ -206,7 +205,8 @@
                     <div class="col-md-12">
 
                         <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <textarea type="text" id="message" name="message" rows="2"
+                                class="form-control md-textarea"></textarea>
                             <label for="message">Tu mensaje</label>
                         </div>
 
