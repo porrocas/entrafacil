@@ -11,7 +11,7 @@
             <form class="needs-validation">
                 <div class="row">
                     <div class="col-md-12 mb-3">
-                        <label for="address">Póster Promocional de tu evento.</label>
+                        <label for="address">Póster Promocional de tu evento *</label>
                         <input type="file" class="form-control-file" id="address" required>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
 
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1">Descripción del evento *</label>
-                    <textarea class="form-control" rows="3"></textarea>
+                    <textarea class="form-control" rows="3" required></textarea>
                 </div>
 
                 <div class="col-md-5 mb-3">
@@ -49,7 +49,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="address">Ubicación del evento</label><br>
+                    <label for="address">Ubicación del evento *</label><br>
                     <small class="text-muted" for="state">Por favor selecciona con una recomendación de google, asi
                         podremos mostrar la ubicación con la posición exacta en el mapa.</small>
                     <input type="text" class="form-control mt-1" placeholder="Ubicación del evento" name="clientAddress"
@@ -65,11 +65,11 @@
 
                 <div class="row">
                     <div class="col-md-5 mb-3">
-                        <label for="country">Numero de boletas</label>
+                        <label for="country">Numero de boletas *</label>
                         <input min="5" type="number" class="form-control" placeholder="500 (Example)" required>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <label for="state">Precio por boleta</label>
+                        <label for="state">Precio por boleta *</label>
                         <input min="0" step="1000" type="number" class="form-control" placeholder="$70000" required>
                         <small class="text-muted mt-1" for="state">Si quieres que tus entradas sean gratis escribe
                             0</small>
@@ -84,7 +84,7 @@
                         <input min="0" max="100" type="number" class="form-control" placeholder="  Descuento en %">
                     </div>
                     <div class="col-md-6 mb-3">
-                        <input type="text" class="form-control" placeholder="  Promo Code">
+                        <input type="text" class="form-control" placeholder="Promo Code">
                     </div>
                 </div>
 
