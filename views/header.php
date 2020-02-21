@@ -58,7 +58,7 @@
                                 </div>
                             </li>
                             <li class="nav-item ml-3 btnHeaderCrear">
-                                <a class="btn btn-outline-warning" href="#" role="button">Crear Eventos</a>
+                                <a class="btn btn-outline-warning" href="crear.php" role="button">Crear Eventos</a>
                             </li>
                         </ul>
                         ';
@@ -87,7 +87,7 @@
                                 </div>
                             </li>
                             <li class="nav-item ml-3 btnHeaderCrear">
-                                <a class="btn btn-outline-warning" href="#" role="button">Crear Eventos</a>
+                                <a class="btn btn-outline-warning" href="crear.php" role="button">Crear Eventos</a>
                             </li>
                         </ul>
                         ';
@@ -116,7 +116,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item ml-3 btnHeaderCrear">
-                                    <a class="btn btn-outline-warning" href="#" role="button">Crear Eventos</a>
+                                    <a class="btn btn-outline-warning" href="crear.php" role="button">Crear Eventos</a>
                                 </li>
                             </ul>
                             ';
@@ -145,7 +145,36 @@
                                     </div>
                                 </li>
                                 <li class="nav-item ml-3 btnHeaderCrear">
-                                    <a class="btn btn-outline-warning" href="#" role="button">Crear Eventos</a>
+                                    <a class="btn btn-outline-warning" href="crear.php" role="button">Crear Eventos</a>
+                                </li>
+                            </ul>
+                            ';
+                        break;
+                case 'crear':
+                        echo 
+                            '
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="eventos.php">Eventos</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Menu
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="aboutUs.php#galeria">Galería</a>
+                                        <a class="dropdown-item" href="aboutUs.php#contacto">Contacto</a>
+                                        <a class="dropdown-item" href="aboutUs.php">About Us</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="soporte.php">Soporte</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item ml-3 btnHeaderCrear ">
+                                    <a class="btn btn-warning" href="crear.php" role="button">Crear Eventos</a>
                                 </li>
                             </ul>
                             ';
@@ -173,7 +202,7 @@
                                     <a class="dropdown-item" href="soporte.php">Soporte</a>
                                 </div>
                                 <li class="nav-item ml-3 btnHeaderCrear">
-                                    <a class="btn btn-outline-warning" href="#" role="button">Crear Eventos</a>
+                                    <a class="btn btn-outline-warning" href="crear.php" role="button">Crear Eventos</a>
                                 </li>
                             </li>
                         </ul>
