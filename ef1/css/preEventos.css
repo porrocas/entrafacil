@@ -1,0 +1,113 @@
+.preEvents{
+    padding: 20px 0px;
+    margin-top: 50%;
+    background: rgba(121, 186, 242, 0.233);
+}
+
+.preEvents > div{
+    width: 90%;
+    margin: 10px auto;
+    line-height: 1.5em;
+}
+
+.preEvents > div span{
+    font-size: .8em;
+    color: #04151f;
+}
+
+.preEvents > div h1{
+    font-size: 2em;
+    color: #04151f;
+    text-shadow: 2px 2px 2px #04151f60;
+    margin-bottom: 15px;
+}
+
+.contenedorEventos{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contenedorEventos > div{
+    width: 23%;
+    margin: 5px;
+    background: #ffffff;
+    
+}
+
+.contenedorEventos a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorEventos a .contImageEvento{
+    width: 100%;
+}
+
+.contenedorEventos a .cont-info-eventos{
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.contenedorEventos a .cont-info-eventos h1{
+    margin-bottom: 3px;
+    color: #000000;
+    font-size: 1.3em;
+}
+
+.contenedorEventos a .cont-info-eventos .info-lugar-evento{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenedorEventos a .cont-info-eventos .info-lugar-evento .img-info{
+    width: 7%;
+    margin-right: 5px;
+}
+
+.contenedorEventos a .cont-info-eventos .info-lugar-evento div p{
+    font-size: .8em;
+    color: #000000;
+}
+
+.contenedorEventos a .cont-info-eventos p{
+    color: #000000;
+}
+
+.contBtnAllEvents{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contBtnAllEvents a{
+    padding: 10px;
+    background: #d05353;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #eee5e9;
+}
+
+.contPrecioEvento{
+    width: 100%;
+    text-align: end;
+    margin-top: 20px;
+}
+
+.contPrecioEvento p{
+    color: #d05353 !important;
+    font-weight: 700;
+}

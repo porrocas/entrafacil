@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+    .preEvents {
+        padding: 20px 0px;
+        background: rgba(121, 186, 242, 0.233);
+    }
+    .preEvents>div {
+        width: 90%;
+        margin-top: 50px;
+        line-height: 2em;
+    }
+    .contenedorEventos {
+        width: 95%;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contenedorEventos>div {
+        width: 100%;
+        margin: 5px;
+        background: #ffffff;
+    }
+    .contenedorEventos a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contenedorEventos a .contImageEvento {
+        width: 100%;
+    }
+    .contenedorEventos a .cont-info-eventos {
+        display: none;
+    }
+}

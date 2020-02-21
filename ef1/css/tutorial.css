@@ -1,0 +1,61 @@
+main{
+    width: 100%;
+}
+
+main .contTituTutorial{
+    padding: 20px;
+    text-align: center;
+    line-height: 1.8em;
+}
+
+main .contTituTutorial span{
+    font-weight: 300;
+    color: #04151f;
+}
+
+main .contTituTutorial h1{
+    font-size: 3em;
+    color: #04151f;
+}
+
+main .classImgTxt{
+    display: flex;
+}
+
+main .classImgTxt > div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .classImgTxt > div p{
+    font-size: 2em;
+    font-weight: 700;
+    width: 80%;
+    text-align: center;
+    color: #04151f;
+}
+
+
+main .classImgTxt > div p a{
+    font-weight: 700;
+    font-size: 1em;
+    color: tomato;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.bgOsc{
+    background: #92dce5;
+}
+
+.margenSup{
+    margin: 20px auto;
+}

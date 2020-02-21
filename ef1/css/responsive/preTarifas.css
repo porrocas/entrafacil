@@ -1,0 +1,36 @@
+@media (max-width: 480px) {
+    .contPreTarifas {
+        height: 800px;
+    }
+    .contPreTarifas .fondoPreTarifas {
+        height: 800px;
+        opacity: .7;
+    }
+    .contPreTarifas .contAstronauta {
+        width: 170px;
+        top: 60%;
+    }
+    .contPreTarifas .tituloPreTarifas span {
+        font-size: .9em;
+    }
+    .contPreTarifas .tituloPreTarifas h1 {
+        font-size: 2em;
+    }
+    .contPreTarifas .contInfoIndividuo {
+        width: 90%;
+        top: 20%;
+        left: 0%;
+        border: none;
+        flex-wrap: wrap;
+    }
+    .contPreTarifas .contInfoIndividuo div {
+        padding: 10px;
+    }
+    .contPreTarifas .contInfoIndividuo div p {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .contPreTarifas .sloganPreTarifas {
+        width: 95%;
+    }
+}

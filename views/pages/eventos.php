@@ -1,3 +1,10 @@
+<div class="jumbotron mainJumbotron text-dark bg-ligth" style="width: 95%; margin: 10px auto;">
+    <h1 class=" text-success">Aca están todos los eventos a los que aun puedes asistir.</h1>
+    <p class="lead text-dark">Es muy fácil, solo busca el evento de tu interés, haz clic en Saber Mas, selecciona cuantas entradas quieres y compralas.</p>
+    <hr class="my-4">
+    <p class="centerTextMuted text-dark">Creando recuerdos inolvidables</p>
+</div>
+
 <div class="container-pre-eventos">
     <?php
   for ($i=0; $i < 8; $i++) { 

@@ -1,0 +1,172 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../img/bg1.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(4,21,31,1) 50%, rgba(146,220,229,1) 100%);
+    opacity: .9;
+}
+
+main > .contContenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+main .contContenido .msjBienvenida{
+    width: 40%;
+}
+
+main .contContenido .msjBienvenida p{
+    font-size: 2em;
+    font-weight: 700;
+    color: #eee5e9;
+    text-shadow: 2px 2px #04151f;
+}
+
+main .contContenido .contInicio{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+main .contContenido .contInicio .contBlanco{
+   background: whitesmoke;
+   width: 80%;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 3px 3px #04151f28;
+}
+
+.inicioRedes h1{
+    font-size: 2em;
+    color: #000000;
+}
+
+.inicioRedes > p{
+    color: #04151f;
+}
+
+.btnRedes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.btnRedes > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnRedes > div a{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 45%;
+}
+
+.cont-fb-img, .cont-g-img{
+    width: 20%;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-fb-txt, .cont-g-txt{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.cont-fb{
+    background: #3b5998;
+}
+
+.cont-g{
+    background: #DB4437;
+}
+
+.contOr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contOr hr{
+    width: 40%;
+}
+
+.formInicioSesion{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formInicioSesion input{
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type=submit]{
+    background: #04151f;
+    border: solid 2px #04151f;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.contCrear{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.contCrear p{
+    margin-right: 5px;
+}
+
+.copy{
+    font-weight: 700;
+    margin-top: 30px;
+    color: #04151f;
+}
+
+.copy a{
+    color: #DB4437;
+    font-weight: 700;
+}
