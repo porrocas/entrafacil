@@ -50,6 +50,17 @@
             </nav>
             ';
         break;
+    case 'equipo':
+        echo 
+            '
+            <nav id="present" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Equipo</li>
+                </ol>
+            </nav>
+            ';
+        break;
     default:
         echo 
             '
