@@ -59,7 +59,7 @@
                         <input min="5" type="number" class="form-control" placeholder="500 (Example)" required>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <label for="state">State</label>
+                        <label for="state">Precio por boleta</label>
                         <input min="0" step="1000" type="number" class="form-control" placeholder="$70000" required>
                         <small class="text-muted mt-1" for="state">Si quieres que tus entradas sean gratis escribe 0</small>
                     </div>
@@ -68,7 +68,7 @@
                 <hr class="mb-3">
 
                 <div class="row">
-                    <label class="col-md-12">Codigos Promocionales</label>
+                    <label class="col-md-12">Códigos Promocionales</label>
                     <div class="col-md-6 mb-3">
                         <input min="0" max="100" type="number" class="form-control" placeholder="  Descuento en %">
                     </div>
@@ -79,7 +79,7 @@
 
                 <hr class="mb-3">
 
-                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Subir Evento</button>
             </form>
         </div>
     </div>
