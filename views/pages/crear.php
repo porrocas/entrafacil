@@ -49,8 +49,18 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="address">Ubicación del evento</label>
-                    <input type="text" class="form-control" placeholder="Ubicación del evento" name="clientAddress" id="clientAddress" required> 
+                    <label for="address">Ubicación del evento</label><br>
+                    <small class="text-muted" for="state">Por favor selecciona con una recomendación de google, asi
+                        podremos mostrar la ubicación con la posición exacta en el mapa.</small>
+                    <input type="text" class="form-control mt-1" placeholder="Ubicación del evento" name="clientAddress"
+                        id="clientAddress" required>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-8" for="example-datetime-local-input" class="col-2 col-form-label">Fecha y Hora del evento *</label>
+                    <div class="col-6">
+                        <input class="form-control" type="datetime-local" required>
+                    </div>
                 </div>
 
                 <div class="row">
@@ -61,7 +71,8 @@
                     <div class="col-md-4 mb-3">
                         <label for="state">Precio por boleta</label>
                         <input min="0" step="1000" type="number" class="form-control" placeholder="$70000" required>
-                        <small class="text-muted mt-1" for="state">Si quieres que tus entradas sean gratis escribe 0</small>
+                        <small class="text-muted mt-1" for="state">Si quieres que tus entradas sean gratis escribe
+                            0</small>
                     </div>
                 </div>
 
